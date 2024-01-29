@@ -9,9 +9,16 @@ import UIKit
 import AVFoundation
 class ViewController2: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
     
+    
+    
+    
     var arr = [UIImage(named: "9"),UIImage(named: "10"),
                UIImage(named: "11"),UIImage(named: "12"),UIImage(named: "13"),UIImage(named: "14"),UIImage(named: "15"),UIImage(named: "16"),UIImage(named: "17"),UIImage(named: "18")]
     
+    
+    
+    
+    var a = 0
     var numbers =  ["1","2","3","4","5","6","7","8","9","10"]
     
     var speech =  ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten"]
